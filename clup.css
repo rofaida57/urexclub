@@ -1,0 +1,188 @@
+/* إعدادات عامة للصفحة */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    height: 100vh; /* جعل الجسم يغطي كامل الشاشة */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff; /* لون خلفية بديل */
+}
+
+/* التنسيق العام */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* مركزية المحتوى */
+.welcome-container {
+    text-align: center;
+    padding-top: 20%;
+    background-image: url('imgclup.jfif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 40px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* نص الترحيب */
+.welcome-message h1 {
+    font-size: 28px;
+    margin: 10px;
+    color: #f1f2f5; /* تغيير اللون الأساسي إلى الأزرق الفاتح */
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.welcome-message p {
+    font-size: 16px;
+    color: #f8f8fc; /* لون نص ثانوي */
+    margin-bottom: 20px;
+}
+
+/* تنسيق الزر */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* لون الزر الأساسي */
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 109, 252, 0.932); /* إضافة ظل للزر */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px); /* تأثير الرفع عند التفاعل */
+    box-shadow: 0 6px 15px rgba(0, 89, 255, 0.932); /* زيادة الظل عند التفاعل */
+}
+
+/* تنسيق قسم المعلومات */
+.info-section {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0s 0.5s;
+    background-color: rgba(2, 154, 255, 0.8); /* خلفية شفافة بلون أزرق فاتح */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-section.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0s 0s;
+}
+
+/* تنسيق الروابط الاجتماعية */
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    margin: 10px;
+    color: #008cff; /* لون أزرق للبداية */
+    text-decoration: none;
+    transition: color 0.3s ease; /* تأثير التغيير عند التفاعل */
+}
+
+.social-icons a:hover {
+    color: #0099ff; /* تغيير اللون إلى الأزرق الفاتح عند التفاعل */
+}
+
+/* تصميم متجاوب للهواتف */
+@media only screen and (max-width: 768px) {
+    .welcome-container {
+        padding-top: 15%;
+        padding: 20px;
+        background-size: contain; /* ضبط الصورة لتناسب الشاشة */
+    }
+
+    .welcome-message h1 {
+        font-size: 22px;
+    }
+
+    .welcome-message p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .info-section {
+        padding: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .welcome-container {
+        padding-top: 10%;
+        padding: 15px;
+    }
+
+    .welcome-message h1 {
+        font-size: 20px;
+    }
+
+    .welcome-message p {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+    }
+}
+
+.buttonm{
+    font-size: 15px;
+    border: none;
+    color: white;
+    float: right;
+}
+h1{
+ padding: 10px 20px
+ }
+ a{
+    text-decoration: none;
+ }
+ a:hover {
+    text-decoration: underline; }
+.h{
+    color: #fa2601;
+}
