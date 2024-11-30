@@ -111,7 +111,7 @@ button:hover {
 /* تصميم متجاوب للهواتف */
 @media only screen and (max-width: 768px) {
     .welcome-container {
-        padding-top: 15%;
+        padding-top: 12%;
         padding: 20px;
         background-size: contain; /* ضبط الصورة لتناسب الشاشة */
     }
@@ -119,6 +119,7 @@ button:hover {
     .welcome-message h1 {
         font-size: 20px;
          text-align: center;
+        padding-top: 20px;
     }
 
     .welcome-message p {
