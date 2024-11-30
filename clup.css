@@ -153,6 +153,9 @@ button:hover {
     .welcome-container {
         padding-top: 10%;
         padding: 15px;
+        background-size: cover;  /* هذا سيجعل الصورة تغطي كامل العنصر */
+    background-position: center;  /* هذا سيضع الصورة في المنتصف */
+    width: 100%;
     }
 
     .welcome-message h1 {
