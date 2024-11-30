@@ -28,9 +28,7 @@ body {
     text-align: center;
     padding-top: 20%;
     background-image: url('imgclub.jfif') ;
-    background-size: cover;  /* هذا سيجعل الصورة تغطي كامل العنصر */
-    background-position: center;  /* هذا سيضع الصورة في المنتصف */
-    width: 100%;
+    background-size: cover; 
     background-size: 200%;
     background-repeat: no-repeat;
     background-size: cover;
