@@ -27,7 +27,6 @@ body {
 .welcome-container {
     text-align: center;
     background-color: #65b9f1da;
-    background-attachment: scroll;
     padding: 40px;
     max-width: 100%;
     margin-left: auto;
