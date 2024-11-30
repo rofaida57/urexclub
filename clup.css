@@ -29,6 +29,7 @@ body {
     padding-top: 20%;
     background-image: url('imgclup.jfif');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
     padding: 40px;
