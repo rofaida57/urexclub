@@ -27,12 +27,12 @@ body {
 .welcome-container {
     text-align: center;
     padding-top: 20%;
-    background-image: url('imgclub.jfif');
+    background-image: url('imgclub.jfif') ;
     background-size: cover;  /* هذا سيجعل الصورة تغطي كامل العنصر */
     background-position: center;  /* هذا سيضع الصورة في المنتصف */
     width: 100%;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: scroll;
     padding: 40px;
@@ -65,18 +65,18 @@ button {
     padding: 12px 25px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff; /* لون الزر الأساسي */
+    background-color: #00a2ff; /* لون الزر الأساسي */
     border: none;
     color: white;
     border-radius: 8px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 109, 252, 0.932); /* إضافة ظل للزر */
+    box-shadow: 0 4px 10px rgba(0, 160, 252, 0.932); /* إضافة ظل للزر */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #069ec4;
     transform: translateY(-3px); /* تأثير الرفع عند التفاعل */
-    box-shadow: 0 6px 15px rgba(0, 89, 255, 0.932); /* زيادة الظل عند التفاعل */
+    box-shadow: 0 6px 15px rgba(0, 153, 255, 0.932); /* زيادة الظل عند التفاعل */
 }
 
 /* تنسيق قسم المعلومات */
