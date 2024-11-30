@@ -26,11 +26,7 @@ body {
 /* مركزية المحتوى */
 .welcome-container {
     text-align: center;
-    padding-top: 20%;
-    background-image: url('imgclub.jfif') ;
-    background-size: 200%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #65b9f1da;
     background-attachment: scroll;
     padding: 40px;
     max-width: 100%;
@@ -39,7 +35,6 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 /* نص الترحيب */
 .welcome-message h1 {
     font-size: 28px;
